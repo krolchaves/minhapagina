@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Caroline da Costa Chaves - Página Pessoal</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header>
+        <h1>Caroline da Costa Chaves</h1>
+        <p></p>
+        <img src="pessoal.png" alt="Foto de Caroline da Costa Chaves"/>
+    </header>
+    <section>
+        <h2>Sobre mim</h2>
+        <p>Sou uma profissional dedicada, com experiência em gestão de serviços e projetos, focada no desenvolvimento contínuo e na busca por soluções inovadoras que promovam eficiência e excelência operacional. Valorizo o aprendizado constante, o trabalho colaborativo e o compromisso com resultados sustentáveis, buscando sempre contribuir estrategicamente para o sucesso das iniciativas em que atuo.</p>
+    </section>
+    <section>
+        <h2>Meu Vídeo Favorito</h2>
+        <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/sVnfv3-SeuU"
+        title="Vídeo do Projeto JWC"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+    </iframe>
+    </section>
+    <section>
+    <h2>Entre em contato comigo</h2>
+    <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required />
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required />
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" required></textarea>
+        <fieldset class="radio-group" style="text-align: center;">
+            <legend>Você gostou da página?</legend>
+            <label style="display: inline-flex; align-items: center; gap: 8px; margin: 0 15px; cursor: pointer;">
+                <input type="radio" name="gostou" value="sim" required />
+                <img src="like.png" alt="Gostei" width="24" height="24" />
+                Gostei
+            </label>
+            <label style="display: inline-flex; align-items: center; gap: 8px; margin: 0 15px; cursor: pointer;">
+                <input type="radio" name="gostou" value="nao" />
+                <img src="dislike.png" alt="Não Gostei" width="24" height="24" />
+                Não Gostei
+            </label>
+        </fieldset>
+        <div class="checkbox-group" style="margin-top: 20px;">
+            <label style="cursor: pointer;">
+                <input type="checkbox" name="termo" required />
+                Concordo com os termos e condições.
+            </label>
+        </div>
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+    <section>
+        <h2>Meus Hobbies, Habilidades e Filmes Favoritos</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Hobbies</th>
+                    <th>Habilidades</th>
+                    <th>Filmes Favoritos</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Leitura</td>
+                    <td>Gestão de Projetos</td>
+                    <td>Viva - A vida é uma festa</td>
+                </tr>
+                <tr>
+                    <td>Fotografia</td>
+                    <td>Análise de Dados</td>
+                    <td>A Origem</td>
+                </tr>
+                <tr>
+                    <td>Caminhadas</td>
+                    <td>Comunicação</td>
+                    <td>Abracadabra</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section>
+    <h2>Meus Contatos Pessoais</h2>
+    <p>
+<a href="mailto:carolinechaves21@gmail.com" target="_blank" rel="noopener" 
+   style="text-decoration:none; color:#6a4ca3; margin-right: 40px; display:inline-flex; flex-direction: column; align-items:center; font-size: 1rem; width: 60px;">
+  <img src="e-mail.svg" alt="Gmail" width="24" height="24" style="margin-bottom:6px; display:block;" />
+  E-mail
+</a>
+<a href="https://www.linkedin.com/in/seu-perfil" target="_blank" rel="noopener" 
+   style="text-decoration:none; color:#6a4ca3; margin-right: 40px; display:inline-flex; flex-direction: column; align-items:center; font-size: 1rem; width: 60px;">
+  <img src="linkedin.svg" alt="LinkedIn" width="24" height="24" style="margin-bottom:6px; display:block;" />
+  LinkedIn
+</a>
+<a href="https://wa.me/5521999390020" target="_blank" rel="noopener" 
+   style="text-decoration:none; color:#6a4ca3; display:inline-flex; flex-direction: column; align-items:center; font-size: 1rem; width: 60px;">
+  <img src="whatsapp.svg" alt="WhatsApp" width="24" height="24" style="margin-bottom:6px; display:block;" />
+  WhatsApp
+</a>
+
+    </p>
+</section>
+    <footer>
+        <p>© 2025 Caroline da Costa Chaves</p>
+    </footer>
+</body>
+</html>
