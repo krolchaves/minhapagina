@@ -1,11 +1,11 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f0f4ff;
-  color: #1a237e;
+  background-color: #f0f4ff; /* azul claro suave */
+  color: #1a237e; /* azul escuro para texto */
 }
-
+/* Header */
 header {
-  background-color: #0d47a1;
+  background-color: #0d47a1; /* azul primário escuro */
   color: white;
   padding: 2rem 0;
   text-align: center;
@@ -13,15 +13,19 @@ header {
 header img {
   border: 4px solid white;
   box-shadow: 0 0 10px rgba(0,0,0,0.15);
+  max-width: 150px;
+  height: auto;
+  border-radius: 50%;
 }
-
+/* Títulos */
 h1, h2 {
   font-weight: 700;
 }
 h2 {
   margin-bottom: 1rem;
+  color: #0d47a1; /* azul para títulos */
 }
-
+/* Formulário */
 form label {
   font-weight: 600;
   color: #0d47a1;
@@ -29,7 +33,7 @@ form label {
 form input[type="text"],
 form input[type="email"],
 form textarea {
-  border: 2px solid #1976d2; 
+  border: 2px solid #1976d2; /* azul médio */
   border-radius: 5px;
   padding: 0.5rem;
   transition: border-color 0.3s ease;
@@ -37,11 +41,11 @@ form textarea {
 form input[type="text"]:focus,
 form input[type="email"]:focus,
 form textarea:focus {
-  border-color: #0d47a1;
+  border-color: #0d47a1; /* azul escuro */
   outline: none;
   box-shadow: 0 0 5px #0d47a1aa;
 }
-
+/* Botão */
 button.btn-primary {
   background-color: #0d47a1;
   border-color: #0d47a1;
@@ -53,12 +57,12 @@ button.btn-primary:hover {
   background-color: #1565c0;
   border-color: #1565c0;
 }
-
+/* Legend do fieldset */
 fieldset legend {
   color: #0d47a1;
   font-weight: 700;
 }
-
+/* Radio e Checkbox */
 input[type="radio"],
 input[type="checkbox"] {
   cursor: pointer;
@@ -66,7 +70,7 @@ input[type="checkbox"] {
 label.cursor-pointer {
   cursor: pointer;
 }
-
+/* Tabela */
 table {
   background-color: white;
   border-radius: 8px;
@@ -78,16 +82,16 @@ table {
 table th, table td {
   vertical-align: middle !important;
 }
-
+/* Links de contato */
 a.text-primary:hover {
   text-decoration: underline;
   color: #0d47a1 !important;
 }
-
+/* Ícones em links */
 a img {
   filter: drop-shadow(0 1px 1px rgba(0,0,0,0.1));
 }
-
+/* Responsividade para imagens e iframe */
 img.img-fluid {
   max-width: 150px;
   height: auto;
@@ -96,7 +100,7 @@ img.img-fluid {
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(13, 71, 161, 0.3);
 }
-
+/* Espaçamentos extras */
 .mb-5 {
   margin-bottom: 3rem !important;
 }
